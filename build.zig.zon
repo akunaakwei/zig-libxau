@@ -1,0 +1,22 @@
+.{
+    .name = .libxau,
+    .version = "1.0.12",
+    .minimum_zig_version = "0.16.0",
+    .dependencies = .{
+        .xau = .{
+            .url = "https://gitlab.freedesktop.org/xorg/lib/libxau/-/archive/libXau-1.0.12/libxau-libXau-1.0.12.tar.gz",
+            .hash = "N-V-__8AAGTlAABgkQ5gmw2C1xhypMB4PArGI_hNIFTXs3mQ",
+        },
+        .xorgproto = .{
+            .url = "https://github.com/akunaakwei/zig-xorgproto/archive/9e416e104fa6067538c08e739de2862721a410cc.tar.gz",
+            .hash = "xorgproto-2025.1.0-38NRV9YKAAB8_MV39Y_a1TPHc5p55a8VAmiXDAJgU3t7",
+        },
+    },
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+        "src",
+        "LICENSE",
+    },
+    .fingerprint = 0xcd92a28b38de91f4,
+}
